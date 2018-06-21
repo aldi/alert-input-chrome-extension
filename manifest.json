@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Alert Input",
+  "description": "Alert input (chrome extension)",
+  "author": "Aldi Duzha",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
